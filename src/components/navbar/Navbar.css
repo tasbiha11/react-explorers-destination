@@ -7,10 +7,12 @@
     padding: 0 1rem;
     z-index: 2;
     position: absolute;
+    color: white;
+    background: linear-gradient(to right, #636363, #a2ab58);
 }
 
 .navbar-bg {
-    background-color: #f5f5f5;
+    background: linear-gradient(to right, #636363, #a2ab58);
 }
 
 .nav-menu {
@@ -47,7 +49,8 @@ li {
         justify-content: space-between;
         background-color: #f5f5f5;
         transition: 0.3s;
-        color: #000;
+        background-color: #a2ab58;
+        color: white;
     }
 
     .dark {

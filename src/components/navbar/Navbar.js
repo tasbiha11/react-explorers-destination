@@ -5,8 +5,6 @@ import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 import { AiOutlineClose } from 'react-icons/ai'
 import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from 'react-icons/fa'
 
-
-
 import './Navbar.css'
 
 function Navbar() {
@@ -16,14 +14,13 @@ function Navbar() {
     return (
         <div name='home' className={nav ? 'navbar navbar-bg' : 'navbar'}>
             <div className={nav ? 'logo dark' : 'logo'}>
-                <h2>Explorers</h2>
+                <h2>EXPLORERS</h2>
             </div>
             <ul className="nav-menu">
                 <li>Home</li>
-                <li>Destination</li>
-                <li>Book</li>
+                <li>Destinations</li>
                 <li>Travel</li>
-
+                <li>Book</li>
             </ul>
             <div className="nav-icons">
                 <BiSearch className='icon' style={{ marginRight: '1rem' }} />
@@ -37,9 +34,9 @@ function Navbar() {
             <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
                 <ul className="mobile-nav">
                     <li>Home</li>
-                    <li>Destination</li>
-                    <li>Book</li>
+                    <li>Destinations</li>
                     <li>Travel</li>
+                    <li>Book</li>
                 </ul>
                 <div className="mobile-menu-bottom">
                     <div className="menu-icons">
