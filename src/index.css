@@ -34,8 +34,8 @@ h2 {
 }
 
 button {
-  background: linear-gradient(to right, #636363, #a2ab58);
-  border: 1px solid var(--primary-dark);
+  background: linear-gradient(to right, #373b44, #4286f4);
+  border: 1px solid white;
   color: #fff;
   padding: .7rem 1.5rem;
   border-radius: 8px;

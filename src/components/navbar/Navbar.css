@@ -8,11 +8,11 @@
     z-index: 2;
     position: absolute;
     color: white;
-    background: linear-gradient(to right, #636363, #a2ab58);
+    background: linear-gradient(to right, #373b44a8, #4286f47d);
 }
 
 .navbar-bg {
-    background: linear-gradient(to right, #636363, #a2ab58);
+    background: linear-gradient(to right, #373b4499, #4286f487);
 }
 
 .nav-menu {
@@ -49,12 +49,12 @@ li {
         justify-content: space-between;
         background-color: #f5f5f5;
         transition: 0.3s;
-        background-color: #a2ab58;
+        background-color: #4286f490;
         color: white;
     }
 
     .dark {
-        color: #000;
+        color: white;
     }
 
     .active {
