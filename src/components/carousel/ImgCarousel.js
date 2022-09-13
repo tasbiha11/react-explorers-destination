@@ -11,6 +11,7 @@ import { Carousel } from 'react-responsive-carousel';
 function ImgCarousel() {
     return (
         <div className='container'>
+            <h2 className='title'>View Our Gallery</h2>
             <Carousel className='carousel' showArrows={true} autoPlay={true} infiniteLoop={true}>
                 <div>
                     <img src={destination1} alt='/' />

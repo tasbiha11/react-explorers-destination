@@ -13,10 +13,11 @@ import SelectsImg from '../SelectsImg/SelectsImg'
 function Selects() {
     return (
         <div name='views' className='selects'>
+            <h2>Select Your Destinations</h2>
             <div className='container'>
                 <SelectsImg bgImg={destination1} text='Fountains' />
                 <SelectsImg bgImg={destination2} text='Mountains' />
-                <SelectsImg bgImg={destination3} text='Fuji' />
+                <SelectsImg bgImg={destination3} text='Rocks' />
                 <SelectsImg bgImg={destination4} text='Budapest' />
                 <SelectsImg bgImg={destination5} text='Venice' />
                 <SelectsImg bgImg={house3} text='Norway' />

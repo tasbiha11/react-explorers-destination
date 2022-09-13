@@ -1,25 +1,24 @@
 import React from 'react'
 import './Search.css'
 
-import gold from '../../assets/gold.png'
-import house1 from '../../assets/house1.jpg'
-import house2 from '../../assets/house2.jpg'
+import horseriding from '../../assets/horseriding.jpg'
+import parasailing from '../../assets/parasailing.jpg'
 
 function Search() {
     return (
         <div name='book' className='search'>
             <div className="container">
                 <div className="left">
-                    <h2>Adventurous Homes with Thrilling Experiences</h2>
+                    <h2>Adventurous Activities for a Lifitime Memory</h2>
                     <div className="search-col-2">
                         <div className="box">
                             <div>
-                                <img src={house1} alt="/" style={{ width: '300px', height: '250px', marginRight: '1rem' }} />
+                                <img src={horseriding} alt="/" style={{ width: '300px', height: '250px', marginRight: '1rem' }} />
                             </div>
                         </div>
                         <div className="box">
                             <div>
-                                <img src={house2} alt="/" style={{ width: '300px', height: '250px', marginRight: '1rem' }} />
+                                <img src={parasailing} alt="/" style={{ width: '300px', height: '250px', marginRight: '1rem' }} />
                             </div>
                         </div>
                     </div>
