@@ -12,7 +12,7 @@ import SelectsImg from '../SelectsImg/SelectsImg'
 
 function Selects() {
     return (
-        <div name='views' className='selects'>
+        <div name='book' className='selects'>
             <h2>Select Your Destinations</h2>
             <div className='container'>
                 <SelectsImg bgImg={destination1} text='Fountains' />

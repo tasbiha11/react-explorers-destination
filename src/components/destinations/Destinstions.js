@@ -9,7 +9,7 @@ import destination5 from '../../assets/destination5.jpg';
 
 function Destinstions() {
     return (
-        <div className='destinations'>
+        <div name='destinations' className='destinations'>
             <div className='container'>
                 <h1>Best adventures planned ahead</h1>
                 <h2>Facinating Gateways</h2>

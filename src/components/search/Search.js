@@ -6,7 +6,7 @@ import parasailing from '../../assets/parasailing.jpg'
 
 function Search() {
     return (
-        <div name='book' className='search'>
+        <div name='travel' className='search'>
             <div className="container">
                 <div className="left">
                     <h2>Adventurous Activities for a Lifitime Memory</h2>
